@@ -3,38 +3,82 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ulti+/-</title>
+  <title>UltiGoaltiStats</title>
   <style>
-    body { font-family: -apple-system, sans-serif; max-width: 600px; margin: 60px auto; padding: 0 24px; color: #111; }
-    h1 { font-size: 2em; } span.plus { color: #30d158; }
+    body { font-family: -apple-system, sans-serif; max-width: 600px; margin: 60px auto; padding: 0 24px; color: #111; line-height: 1.6; }
+    h1 { font-size: 2em; margin-bottom: 10px; } span.plus { color: #30d158; }
     h2 { margin-top: 40px; font-size: 1.1em; color: #555; text-transform: uppercase; letter-spacing: 0.05em; }
+    h3 { margin-top: 24px; font-size: 1em; color: #333; }
     ul { line-height: 2; padding-left: 20px; }
-    a { color: #30d158; }
-    footer { margin-top: 60px; font-size: 0.85em; color: #999; }
+    a { color: #30d158; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .cta { display: inline-block; background-color: #30d158; color: white; padding: 12px 24px; border-radius: 8px; margin-top: 12px; text-decoration: none; }
+    .cta:hover { background-color: #28c14f; }
+    footer { margin-top: 60px; font-size: 0.85em; color: #999; border-top: 1px solid #eee; padding-top: 20px; }
   </style>
 </head>
 <body>
-  <h1>Ulti<span class="plus">+/-</span></h1>
-  <p><strong>Ultimate Frisbee stat tracker for Apple Watch.</strong></p>
-  <p>Track your stats in real time — right from your wrist. Built for players who want to know their numbers without slowing down the game.</p>
+  <h1>UltiGoaltiStats</h1>
+  <p><strong>Track ultimate and goaltimate stats on iOS.</strong></p>
+  <p>Record individual and team performance in real time. Analyze stats across games, tournaments, and seasons. Export to web and GitHub Pages.</p>
 
-  <h2>Features</h2>
+  <h2>Core Features</h2>
   <ul>
-    <li>Goals, assists, Ds, throwaways, drops &amp; stalls</li>
-    <li>Live score tracking — US vs Them</li>
-    <li>Field +/− and contribution +/−</li>
-    <li>Works for goaltimate, beach ultimate &amp; 7v7</li>
-    <li>Large buttons — works with gloves on</li>
-    <li>Game history on iPhone</li>
-    <li>Crash recovery — never lose a stat</li>
+    <li>Record goals, assists, blocks, drops, throwaways &amp; stalls</li>
+    <li>2-point goal tracking with separate shot distance analytics</li>
+    <li>Hockey assists and defensive accountability</li>
+    <li>Live score tracking and point-by-point records</li>
+    <li>Ultimate and Goaltimate modes with mode-specific rules</li>
+    <li>Vic Mode for inter-squad scrimmages</li>
+    <li>Plus/minus and APM (Adjusted Plus-Minus) metrics</li>
+    <li>Career stats across multiple teams and seasons</li>
+    <li>Automatic backup reminders and manual export/import</li>
   </ul>
 
+  <h2>Advanced Analytics</h2>
+  <ul>
+    <li>Interactive heat maps showing shot distances and attempts</li>
+    <li>Per-game, per-tournament, and lifetime stats views</li>
+    <li>Team metrics: offensive efficiency, D conversion %, dirty holds</li>
+    <li>Player leaderboards for offense, defense, and contribution</li>
+    <li>Stat editing for manual corrections and overrides</li>
+  </ul>
+
+  <h2>Export & Publishing</h2>
+  <ul>
+    <li>Export team stats as an interactive HTML webpage</li>
+    <li>Publish stats to GitHub Pages with live updates</li>
+    <li>Link to editable Google Sheets for collaborative analysis</li>
+    <li>Share game stats via CSV or local backups</li>
+  </ul>
+
+  <h2>Recent Updates</h2>
+  <h3>v1.9.88 (November 2026)</h3>
+  <ul>
+    <li>Career Stats crash fixed — safely handles corrupted data</li>
+    <li>Game status refreshes immediately after ending</li>
+    <li>New Game button added to team detail menu</li>
+    <li>APM calculation runs on background thread</li>
+    <li>Backup reminder shows on fresh install</li>
+  </ul>
+
+  <h3>v1.9.87 (November 2026)</h3>
+  <ul>
+    <li>Data migration for backward compatibility</li>
+    <li>Backup reminder prompt shows after 7 days</li>
+    <li>Data Backup section in team detail view</li>
+    <li>Automatic backup tracking and timestamps</li>
+  </ul>
+
+  <h2>Download</h2>
+  <p>Available on the <a href="https://apps.apple.com">App Store</a> for iPad and iPhone running iOS 17+.</p>
+
   <h2>Support</h2>
-  <p>Questions or feedback? Email <a href="mailto:ultiplusminus@gmail.com">ultiplusminus@gmail.com</a></p>
+  <p>Questions or feedback? Email <a href="mailto:ultigoaltistats@gmail.com">ultigoaltistats@gmail.com</a></p>
 
   <h2>Privacy Policy</h2>
-  <p>Ulti+/- does not collect, transmit, or share any personal data. All game data is stored locally on your device. No analytics, no tracking, no account required.</p>
+  <p>UltiGoaltiStats does not collect, transmit, or share any personal data. All game data is stored locally on your device. No analytics, no tracking, no account required.</p>
 
-  <footer>Last updated June 2026 &middot; Joel Conn</footer>
+  <footer>Last updated November 2026 &middot; Joel Conn</footer>
 </body>
 </html>
